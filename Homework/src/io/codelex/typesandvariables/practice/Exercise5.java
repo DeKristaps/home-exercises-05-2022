@@ -21,7 +21,7 @@ public class Exercise5 {
         String teacher8 = "A.Smits";
 
         System.out.println("+------------------------------------------------------------+");
-        System.out.printf("| %d | %15s|| %36s||\n", 1, teacher1, subject2);
+        System.out.printf("| %d | %15s|| %36s||\n", 1, teacher1, subject1);
         System.out.printf("| %d | %15s|| %36s||\n", 2, teacher2, subject2);
         System.out.printf("| %d | %15s|| %36s||\n", 3, teacher3, subject3);
         System.out.printf("| %d | %15s|| %36s||\n", 4, teacher4, subject4);
