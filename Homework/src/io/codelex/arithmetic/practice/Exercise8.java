@@ -3,12 +3,12 @@ package io.codelex.arithmetic.practice;
 
 public class Exercise8 {
     public static void main(String[] args) {
-        System.out.println(payCauculator("Employee1", 7.50, 35));
-        System.out.println(payCauculator("Employee2", 8.20, 47));
-        System.out.println(payCauculator("Employee3", 10.00, 73));
+        System.out.println(payCalculator("Employee1", 7.50, 35));
+        System.out.println(payCalculator("Employee2", 8.20, 47));
+        System.out.println(payCalculator("Employee3", 10.00, 73));
     }
 
-    static String payCauculator(String employee, double basePay, int hoursWorked) {
+    static String payCalculator(String employee, double basePay, int hoursWorked) {
         if (basePay < 8.00) {
             return (employee + " Error: base pay to low");
         } else if (hoursWorked > 60) {
