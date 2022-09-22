@@ -21,11 +21,10 @@ public class Exercise8 {
         SavingsAccount acc = new SavingsAccount(interest, balance);
 
 
-
         for (int i = 1; i <= time; i++) {
-            System.out.println("Enter amount deposited for month " + i +":");
+            System.out.println("Enter amount deposited for month " + i + ":");
             BigDecimal deposit = userInput.nextBigDecimal();
-            System.out.println("Enter amount withdrawn for month " + i +":");
+            System.out.println("Enter amount withdrawn for month " + i + ":");
             BigDecimal withdraw = userInput.nextBigDecimal();
 
             SavingsAccount.deposit(deposit);

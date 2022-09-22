@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class VideoStoreTest {
     private static final int COUNT_OF_MOVIES = 3;
+    private static VideoStore videoStore = new VideoStore();
 
     public static void main(String[] args) {
         final Scanner keyboard = new Scanner(System.in);
@@ -14,6 +15,7 @@ public class VideoStoreTest {
             System.out.println("Choose 1 to fill video store");
             System.out.println("Choose 2 to rent video (as user)");
             System.out.println("Choose 3 to return video (as user)");
+            System.out.println("Choose 4 to see Stock");
 
             int n = keyboard.nextInt();
 
@@ -29,6 +31,9 @@ public class VideoStoreTest {
                 case 3:
                     returnVideo(keyboard);
                     break;
+                case 4:
+                    videoStore.listStock();
+                    break;
                 default:
                     break;
             }
@@ -43,16 +48,35 @@ public class VideoStoreTest {
             System.out.println("Enter rating out of 10");
             float rating = scanner.nextFloat();
 
-            Video movie = new Video(movieName,rating);
+            videoStore.addNewVideo(movieName, rating);
 
         }
     }
 
+
     private static void rentVideo(Scanner scanner) {
-        //todo - rent video
+        System.out.println("Please enter the title of the video");
+        String title = scanner.next();
+        if (videoStore.checkOutVideo(title)) {
+            System.out.println("Here's your video. Have a nice day!");
+        } else {
+            System.out.println("Sorry we dont have that in stock right now.");
+        }
+
     }
 
     private static void returnVideo(Scanner scanner) {
-        //todo - return video
+        System.out.println("Please enter the title of the video");
+        String title = scanner.next();
+        if (videoStore.returnVideo(title)) {
+            System.out.println("Yea, that's one of ours.");
+            System.out.println("Could you please leave us a rating?");
+            float rating = scanner.nextFloat();
+            videoStore.rateVideo(title, rating);
+        } else {
+            System.out.println("Sorry, that's not one of ours.");
+        }
+
+
     }
 }

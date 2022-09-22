@@ -9,7 +9,7 @@ public class Point {
         this.y = v2;
     }
 
-    public static void swapPoints (Point p1, Point p2){
+    public static void swapPoints(Point p1, Point p2) {
         int tempX = p1.x;
         int tempY = p1.y;
 
@@ -25,7 +25,7 @@ public class Point {
         Point p1 = new Point(5, 2);
         Point p2 = new Point(-3, 6);
 
-        swapPoints(p1,p2);
+        swapPoints(p1, p2);
 
         System.out.println("(" + p1.x + ", " + p1.y + ")");
         System.out.println("(" + p2.x + ", " + p2.y + ")");

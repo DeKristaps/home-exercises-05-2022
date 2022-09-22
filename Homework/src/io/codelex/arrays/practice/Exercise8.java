@@ -11,62 +11,62 @@ public class Exercise8 {
 
         while (!choice.equals("n")) {
 
-        String currentWord = randomString();
-        char[] splitCopy = currentWord.toCharArray();
-        char[] guess = new char[21];
-        char[] miss = new char[5];
-        String output = "";
+            String currentWord = randomString();
+            char[] splitCopy = currentWord.toCharArray();
+            char[] guess = new char[21];
+            char[] miss = new char[5];
+            String output = "";
 
 
-        int guessIndex = 0;
-        int missIndex = 0;
+            int guessIndex = 0;
+            int missIndex = 0;
 
-        Arrays.fill(guess, ' ');
-        Arrays.fill(miss, ' ');
-        Arrays.fill(splitCopy, '-');
+            Arrays.fill(guess, ' ');
+            Arrays.fill(miss, ' ');
+            Arrays.fill(splitCopy, '-');
 
-        while (!winCondition(splitCopy)) {
+            while (!winCondition(splitCopy)) {
 
-            gameField(splitCopy, guess, miss);
+                gameField(splitCopy, guess, miss);
 
-            System.out.println("Please enter a letter: ");
-            String userGuess = keyBoard.nextLine();
+                System.out.println("Please enter a letter: ");
+                String userGuess = keyBoard.nextLine();
 
 
-            int index = currentWord.indexOf(userGuess);
-            if (index != -1) {
-                while (index != -1) {
-                    splitCopy[index] = userGuess.charAt(0);
-                    index = currentWord.indexOf(userGuess, index + 1);
+                int index = currentWord.indexOf(userGuess);
+                if (index != -1) {
+                    while (index != -1) {
+                        splitCopy[index] = userGuess.charAt(0);
+                        index = currentWord.indexOf(userGuess, index + 1);
+                    }
+
+                } else {
+                    miss[missIndex] = userGuess.charAt(0);
+                    missIndex++;
                 }
 
-            } else {
-                miss[missIndex] = userGuess.charAt(0);
-                missIndex++;
+                guess[guessIndex] = userGuess.charAt(0);
+                guessIndex++;
+
+                gameField(splitCopy, guess, miss);
+
+                if (winCondition(splitCopy)) {
+                    output = "You did it!";
+                    break;
+                }
+                if (missIndex == 5) {
+                    output = "You lost!";
+                    break;
+                }
+
             }
 
-            guess[guessIndex] = userGuess.charAt(0);
-            guessIndex++;
-
-            gameField(splitCopy, guess, miss);
-
-            if (winCondition(splitCopy)) {
-                output = "You did it!";
-                break;
-            }
-            if (missIndex == 5) {
-                output = "You lost!";
-                break;
-            }
-
-        }
-
-        System.out.println(output);
+            System.out.println(output);
             System.out.println("Do you want to play again? y/n:");
             choice = keyBoard.nextLine();
-    }
+        }
 
-}
+    }
 
     public static void gameField(char[] currentWord, char[] guess, char[] mises) {
 

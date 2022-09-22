@@ -14,7 +14,7 @@ public class BankAccount {
 
     @Override
     public String toString() {
-        if(balance < 0 ){
+        if (balance < 0) {
             balance = balance * -1;
         }
         return String.format("%s, $%.2f", name, balance);
