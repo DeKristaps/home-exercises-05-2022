@@ -16,7 +16,7 @@ public class Exercise2 {
         System.out.println("Please enter a max number");
         int maxNumber = input.nextInt();
 
-        int arrayLength = (maxNumber - minNumber) +1;
+        int arrayLength = (maxNumber - minNumber) + 1;
         int[] myArray = new int[arrayLength];
         int sum = 0;
 

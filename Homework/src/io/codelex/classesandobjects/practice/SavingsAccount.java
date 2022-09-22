@@ -31,19 +31,20 @@ public class SavingsAccount {
         ANNUAL_INTEREST_RATE = interest;
         balance = startBalance;
     }
-    public static void subtract(BigDecimal subAmount){
+
+    public static void subtract(BigDecimal subAmount) {
         totalWithdrawn = totalWithdrawn.add(subAmount);
         balance = balance.subtract(subAmount);
     }
 
-    public static void deposit(BigDecimal depAmount){
+    public static void deposit(BigDecimal depAmount) {
         totalDeposit = totalDeposit.add(depAmount);
         balance = balance.add(depAmount);
     }
 
-    public static void calculateMonthlyInterest(){
+    public static void calculateMonthlyInterest() {
         BigDecimal earned;
-        BigDecimal monthlyInterest = ANNUAL_INTEREST_RATE.divide(BigDecimal.valueOf(12),2, RoundingMode.HALF_DOWN);
+        BigDecimal monthlyInterest = ANNUAL_INTEREST_RATE.divide(BigDecimal.valueOf(12), 2, RoundingMode.HALF_DOWN);
         earned = balance.multiply(monthlyInterest);
         interestEarned = interestEarned.add(earned);
         balance = balance.add(earned);

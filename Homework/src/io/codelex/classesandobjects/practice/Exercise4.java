@@ -1,7 +1,5 @@
 package io.codelex.classesandobjects.practice;
 
-import java.util.Arrays;
-
 public class Exercise4 {
     public static void main(String[] args) {
         Movie movie1 = new Movie("Casino Royal", "Eon Productions", "PG13");
