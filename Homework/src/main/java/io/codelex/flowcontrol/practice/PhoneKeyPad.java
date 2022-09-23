@@ -15,29 +15,36 @@ public class PhoneKeyPad {
         for (int i = 0; i < inputString.length(); i++) {
             char test = inputString.charAt(i);
 
-            if ((test == 'a') || (test == 'b') || (test == 'c')) {
-                outputString += "2";
-            } else if ((test == 'd') || (test == 'e') || (test == 'f')) {
-                outputString += "3";
-            } else if ((test == 'g') || (test == 'h') || (test == 'i')) {
-                outputString += "4";
-            } else if ((test == 'j') || (test == 'k') || (test == 'l')) {
-                outputString += "5";
-            } else if ((test == 'm') || (test == 'n') || (test == 'o')) {
-                outputString += "6";
-            } else if ((test == 'p') || (test == 'q') || (test == 'r') || (test == 's')) {
-                outputString += "7";
-            } else if ((test == 't') || (test == 'u') || (test == 'v')) {
-                outputString += "8";
-            } else if ((test == 'w') || (test == 'x') || (test == 'y') || (test == 'z')) {
-                outputString += "9";
-            } else if (test == ' ') {
-                outputString += " ";
+            switch (test) {
+                case 'a', 'b', 'c':
+                    outputString += "2";
+                    break;
+                case 'd', 'e', 'f':
+                    outputString += "3";
+                    break;
+                case 'g', 'h', 'i':
+                    outputString += "4";
+                    break;
+                case 'j', 'k', 'l':
+                    outputString += "5";
+                    break;
+                case 'm', 'n', 'o':
+                    outputString += "6";
+                    break;
+                case 'p', 'q', 'r', 's':
+                    outputString += "7";
+                    break;
+                case 't', 'u', 'v':
+                    outputString += "8";
+                    break;
+                case 'w', 'x', 'y', 'z':
+                    outputString += "9";
+                    break;
+                default:
+                    outputString += " ";
+
             }
         }
-
         System.out.println(outputString);
-
-
     }
 }

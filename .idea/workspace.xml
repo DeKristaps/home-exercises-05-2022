@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415f5c13-c3ae-4a03-a587-77774a059f1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Homework/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Homework/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/example/Example.java" afterDir="false" />
@@ -126,6 +129,7 @@
       <workItem from="1664551736667" duration="19000" />
       <workItem from="1664558578859" duration="119000" />
       <workItem from="1664558702685" duration="36000" />
+      <workItem from="1664558802061" duration="21000" />
     </task>
     <servers />
   </component>

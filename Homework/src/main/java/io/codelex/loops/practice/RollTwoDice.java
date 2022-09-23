@@ -6,8 +6,10 @@ import java.util.Scanner;
 public class RollTwoDice {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        Random dice = new Random();
-        int d1, d2, diceSum;
+
+        int d1 = 0;
+        int d2 = 0;
+        int diceSum;
 
 
         System.out.println("Please enter your desired sum:");
@@ -23,14 +25,18 @@ public class RollTwoDice {
         }
 
         do {
-            d1 = dice.nextInt(1, 7);
-            d2 = dice.nextInt(1, 7);
+            d1 = rollDice();
+            d2 = rollDice();
             diceSum = d1 + d2;
 
             System.out.println(d1 + " and " + d2 + " = " + diceSum);
 
         } while (desiredSum != diceSum);
 
+    }
 
+    public static int rollDice(){
+        Random dice = new Random();
+        return dice.nextInt(1, 7);
     }
 }
