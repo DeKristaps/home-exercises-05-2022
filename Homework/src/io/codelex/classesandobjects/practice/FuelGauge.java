@@ -2,21 +2,25 @@ package io.codelex.classesandobjects.practice;
 
 public class FuelGauge {
 
-    static int currentFuelLevel = 69;
+    int currentFuelLevel;
 
-    public static int getCurrentFuelLevel() {
-        return currentFuelLevel;
+    public FuelGauge(int currentFuelLevel) {
+        this.currentFuelLevel = currentFuelLevel;
     }
 
-    public static void refuel() {
-        if (currentFuelLevel <= 70) {
-            currentFuelLevel++;
+    public int getCurrentFuelLevel() {
+        return this.currentFuelLevel;
+    }
+
+    void refuel() {
+        if (this.currentFuelLevel <= 70) {
+            this.currentFuelLevel++;
         }
     }
 
-    public static void consume() {
-        if (currentFuelLevel > 0) {
-            currentFuelLevel--;
+    void consume() {
+        if (this.currentFuelLevel > 0) {
+            this.currentFuelLevel--;
         }
     }
 

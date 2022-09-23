@@ -11,9 +11,7 @@ public class Exercise4 {
         Movie[] out = Movie.getPG(movies);
 
         for (int i = 0; i < out.length; i++) {
-            System.out.println(out[i].title.toString());
+            System.out.println(out[i].title);
         }
-
-
     }
 }
