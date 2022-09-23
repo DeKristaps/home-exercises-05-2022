@@ -25,21 +25,21 @@ public class TenBillion {
                 int digits = 1;
                 if ((n >= 10) && (n < 100)) {
                     digits = 2;
-                } else if ((n >= 100) && (n < 1000)) {
+                } else if (n < 1000) {
                     digits = 3;
-                } else if ((n >= 1000) && (n < 10000)) {
+                } else if (n < 10000) {
                     digits = 4;
-                } else if ((n >= 10000) && (n < 100000)) {
+                } else if (n < 100000) {
                     digits = 5;
-                } else if ((n >= 100000) && (n < 1000000)) {
+                } else if (n < 1000000) {
                     digits = 6;
-                } else if ((n >= 1000000) && (n < 10000000)) {
+                } else if (n < 10000000) {
                     digits = 7;
-                } else if ((n >= 10000000) && (n < 100000000)) {
+                } else if (n < 100000000) {
                     digits = 8;
-                } else if ((n >= 100000000) && (n < 1000000000)) {
+                } else if (n < 1000000000) {
                     digits = 9;
-                } else if ((n >= 1000000000) && (n < 10000000000L)) {
+                } else  {
                     digits = 10;
                 }
                 System.out.println("Number of digits in the number: " + digits);

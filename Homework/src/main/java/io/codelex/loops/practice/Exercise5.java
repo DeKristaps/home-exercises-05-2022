@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercise5 {
     public static void main(String[] args) {
+        final int LINE_LENGTH = 30;
         Scanner userInput = new Scanner(System.in);
         StringBuilder dots = new StringBuilder();
 
@@ -14,7 +15,7 @@ public class Exercise5 {
 
         int dodLength = firstInput.length() + secondInput.length();
 
-        for (int i = 0; i < 30 - dodLength; i++) {
+        for (int i = 0; i < LINE_LENGTH - dodLength; i++) {
             dots.append(".");
         }
 

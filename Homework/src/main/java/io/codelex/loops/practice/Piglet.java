@@ -26,7 +26,7 @@ public class Piglet {
             }
             finalScore = finalScore + roll;
             System.out.println("You rolled a " + roll + " Do you want to continue? y/n");
-            userChoice = userInput.next();
+            userChoice = userInput.next().toLowerCase();
 
         } while (userChoice.equals("y"));
 
