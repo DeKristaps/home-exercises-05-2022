@@ -1,17 +1,17 @@
 package io.codelex.classesandobjects.practice;
 
-import static io.codelex.classesandobjects.practice.FuelGauge.getCurrentFuelLevel;
-import static io.codelex.classesandobjects.practice.Odometer.getCurrentOdometer;
-
 public class Exercise3 {
+    private static Odometer odometer = new Odometer(1000);
+    private static FuelGauge fuelGauge = new FuelGauge(68);
+
     public static void main(String[] args) {
-        FuelGauge.refuel();
+        fuelGauge.refuel();
 
 
-        while (getCurrentFuelLevel() != 0) {
-            System.out.println(getCurrentFuelLevel());
-            System.out.println(getCurrentOdometer());
-            Odometer.increaseOdometer();
+        while (fuelGauge.getCurrentFuelLevel() != 0) {
+            System.out.println(fuelGauge.getCurrentFuelLevel());
+            System.out.println(odometer.getCurrentOdometer());
+            odometer.increaseOdometer(fuelGauge);
 
         }
     }
