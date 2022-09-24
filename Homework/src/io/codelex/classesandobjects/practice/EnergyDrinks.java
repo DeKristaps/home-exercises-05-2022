@@ -8,7 +8,7 @@ public class EnergyDrinks {
     public static void main(String[] args) {
         //fixme
         double energyDrinkers = calculateEnergyDrinkers(NUMBERED_SURVEYED);
-        double preferCitrus = calculatePreferCitris(NUMBERED_SURVEYED);
+        double preferCitrus = calculatePreferCitrus(NUMBERED_SURVEYED);
 
         System.out.println("Total number of people surveyed " + NUMBERED_SURVEYED);
         System.out.println("Approximately " + energyDrinkers + " bought at least one energy drink");
@@ -19,7 +19,7 @@ public class EnergyDrinks {
         return numberSurveyed * PURCHASED_ENERGY_DRINKS;
     }
 
-    public static double calculatePreferCitris(int numberSurveyed) {
+    public static double calculatePreferCitrus(int numberSurveyed) {
         return (numberSurveyed * PURCHASED_ENERGY_DRINKS) * PREFER_CITRUS_DRINKS;
     }
 }

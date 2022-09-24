@@ -20,23 +20,20 @@ public class Exercise8 {
 
         SavingsAccount acc = new SavingsAccount(interest, balance);
 
-
         for (int i = 1; i <= time; i++) {
             System.out.println("Enter amount deposited for month " + i + ":");
             BigDecimal deposit = userInput.nextBigDecimal();
             System.out.println("Enter amount withdrawn for month " + i + ":");
             BigDecimal withdraw = userInput.nextBigDecimal();
 
-            SavingsAccount.deposit(deposit);
-            SavingsAccount.subtract(withdraw);
-            SavingsAccount.calculateMonthlyInterest();
+            acc.deposit(deposit);
+            acc.subtract(withdraw);
+            acc.calculateMonthlyInterest();
 
         }
-
-        System.out.printf("Total deposited: $%s \n", df.format(SavingsAccount.getTotalDeposit()));
-        System.out.printf("Total withdrawn: $%s \n", df.format(SavingsAccount.getTotalWithdrawn()));
-        System.out.printf("Interest earned: $%s \n", df.format(SavingsAccount.getInterestEarned()));
-        System.out.printf("Ending balance: $%s \n", df.format(SavingsAccount.getBalance()));
-
+        System.out.printf("Total deposited: $%s \n", df.format(acc.getTotalDeposit()));
+        System.out.printf("Total withdrawn: $%s \n", df.format(acc.getTotalWithdrawn()));
+        System.out.printf("Interest earned: $%s \n", df.format(acc.getInterestEarned()));
+        System.out.printf("Ending balance: $%s \n", df.format(acc.getBalance()));
     }
 }

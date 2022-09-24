@@ -22,15 +22,15 @@ public class Dog {
         this.sex = sex;
     }
 
-    public static void print(Dog dog) {
-        System.out.println("Hi, my names is " + dog.name + ". I am a " + dog.sex);
+    public String toString() {
+       return "Hi, my names is " + this.name + ". I am a " + this.sex;
     }
 
-    public static String fathersName(Dog dog) {
-        return Objects.requireNonNullElse(dog.father, "Unknown");
+    public String fathersName() {
+        return Objects.requireNonNullElse(this.father, "Unknown");
     }
 
-    public static boolean hasSameMotherAs(Dog dog, Dog otherDog) {
-        return dog.mother.equals(otherDog.mother);
+    public  boolean hasSameMotherAs(Dog otherDog) {
+        return this.mother.equals(otherDog.mother);
     }
 }
