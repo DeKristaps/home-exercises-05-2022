@@ -11,11 +11,11 @@ public class DogTest {
         Dog Molly = new Dog("Molly", "female");
         Dog Coco = new Dog("Coco", "female", "Buster", "Molly");
 
-        Dog.print(Max);
+        System.out.println(Max);
 
-        System.out.println(Dog.fathersName(Coco));
-        System.out.println(Dog.fathersName(Sparky));
+        System.out.println(Coco.fathersName());
+        System.out.println(Sparky.fathersName());
 
-        System.out.println(Dog.hasSameMotherAs(Coco, Rocky));
+        System.out.println(Coco.hasSameMotherAs(Rocky));
     }
 }
