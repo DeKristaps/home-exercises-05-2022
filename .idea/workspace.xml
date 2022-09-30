@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="415f5c13-c3ae-4a03-a587-77774a059f1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/example/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/practice/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/practice/PhoneKeyPad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/practice/PositiveNegativeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/practice/PrintDayInWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/practice/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/flowcontrol/practice/TenBillion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/BreakExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/ContinueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/DoWhileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/DoWhileQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/ForEachExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/ForExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/ReturnQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/WhileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/examples/WhileQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/AsciiFigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/Exercise5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/MultiplyByItself.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/NaturalNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/NumberSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/Piglet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/RandomNumberPositions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/RollTwoDice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/main/java/io/codelex/loops/practice/Vowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/home-exercises-05-2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/home-exercises-05-2022.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FB6K2LeLLPz68k0HvU7Iwkl16O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dekri/IdeaProjects/ClashOfCode&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dekri\IdeaProjects\home-exercises-05-2022\home-exercises-05-2022\Homework\src\io\codelex" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="home-exercises-05-2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="home-exercises-05-2022" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="415f5c13-c3ae-4a03-a587-77774a059f1a" name="Changes" comment="" />
+      <created>1663953062784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663953062784</updated>
+      <workItem from="1663953064566" duration="718000" />
+      <workItem from="1663959632156" duration="181000" />
+      <workItem from="1663959860992" duration="4774000" />
+      <workItem from="1664009523222" duration="30000" />
+      <workItem from="1664010113536" duration="2040000" />
+      <workItem from="1664017038108" duration="6000" />
+      <workItem from="1664262882556" duration="15000" />
+      <workItem from="1664262940402" duration="12000" />
+      <workItem from="1664263014478" duration="399000" />
+      <workItem from="1664263437362" duration="7396000" />
+      <workItem from="1664273361895" duration="5708000" />
+      <workItem from="1664284468157" duration="1773000" />
+      <workItem from="1664287023753" duration="13885000" />
+      <workItem from="1664349075654" duration="10952000" />
+      <workItem from="1664375785371" duration="6406000" />
+      <workItem from="1664439467321" duration="17221000" />
+      <workItem from="1664461418714" duration="6574000" />
+      <workItem from="1664531568990" duration="5790000" />
+      <workItem from="1664543153748" duration="812000" />
+      <workItem from="1664548073263" duration="176000" />
+      <workItem from="1664550233276" duration="14000" />
+      <workItem from="1664551736667" duration="19000" />
+      <workItem from="1664558578859" duration="119000" />
+      <workItem from="1664558702685" duration="36000" />
+      <workItem from="1664558802061" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
