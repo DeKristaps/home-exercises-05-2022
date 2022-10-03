@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7fc6c5b-4cef-4f7d-9011-304d1b72934d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-exercises-05-2022.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/NoCodeWrittenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/NoCodeWrittenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/examples/PrePostIncrement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/examples/PrePostIncrement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/CalculateArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/CalculateArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/CheckOddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/CheckOddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/CozaLozaWoza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/CozaLozaWoza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/Exercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/Exercise5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/Exercise8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/Exercise9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/Exercise9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/Geometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/GravityCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/GravityCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/Product1ToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/Product1ToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/SumAverageRunningInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/SumAverageRunningInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/arithmetic/practice/gravity-formula.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arithmetic/practice/gravity-formula.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/examples/NullExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/examples/NullExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/examples/VariableScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/examples/VariableScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/Casting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/Exercise4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/Exercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/Exercise5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/Exercise6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/Exercise6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/Exercise7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/Exercise7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/Exercise8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/Exercise9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/Exercise9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/MoreVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/MoreVariablesAndPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/SadFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/SadFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codelex/typesandvariables/practice/VariablesAndNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/typesandvariables/practice/VariablesAndNames.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EP3KoXmGp6ODVW3WnCPdIHdI53" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Dekri/IdeaProjects/java-syllabus",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dekri\IdeaProjects\home-exercises-05-2022\home-exercises-05-2022\Homework\src\io\codelex" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.codelex" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7fc6c5b-4cef-4f7d-9011-304d1b72934d" name="Changes" comment="" />
+      <created>1662483331593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662483331593</updated>
+      <workItem from="1662483333595" duration="1616000" />
+      <workItem from="1662561446074" duration="10041000" />
+      <workItem from="1662630137668" duration="21538000" />
+      <workItem from="1662711434257" duration="17063000" />
+      <workItem from="1662735692759" duration="2261000" />
+      <workItem from="1662745172181" duration="851000" />
+      <workItem from="1662802815510" duration="218000" />
+      <workItem from="1662804762830" duration="6067000" />
+      <workItem from="1662834581309" duration="3606000" />
+      <workItem from="1662906521325" duration="3115000" />
+      <workItem from="1662910834187" duration="295000" />
+      <workItem from="1662967886591" duration="174000" />
+      <workItem from="1662968078444" duration="4000" />
+      <workItem from="1662996041528" duration="2000" />
+      <workItem from="1664560590627" duration="41000" />
+      <workItem from="1664560655210" duration="4000" />
+      <workItem from="1664560794128" duration="154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

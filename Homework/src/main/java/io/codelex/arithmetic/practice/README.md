@@ -65,7 +65,7 @@ See [GravityCalculator.java](./GravityCalculator.java)
 Modify the example program to compute the position of an object after falling for 10 seconds, outputting the position in
 meters. The formula in Math notation is:
 
-![Gravity formula](./gravity-formula.png)
+![Gravity formula](gravity-formula.png)
 
 *Note:* The correct value is -490.5m.
 
