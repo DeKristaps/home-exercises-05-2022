@@ -1,0 +1,26 @@
+package io.codelex.advancedtest.exercise1;
+
+import java.math.BigDecimal;
+
+public class CreditCard extends Card {
+    public CreditCard(String cardNumber, String owner, int ccv, double balance) {
+        super(cardNumber, owner, ccv, balance);
+    }
+
+    @Override
+    public void takeMoney(double money) {
+        int test = this.getBalance().compareTo(BigDecimal.valueOf(money));
+        if (test < 0) {
+            throw new NotEnoughFundsException("Its not possible to take out the amount you are requesting");
+        } else {
+            this.setBalance(this.getBalance().subtract(BigDecimal.valueOf(money)));
+        }
+
+        if (this.getBalance().compareTo(BigDecimal.valueOf(100)) < 100) {
+            System.out.println("Warning: Low funds");
+        }
+
+    }
+
+}
+
