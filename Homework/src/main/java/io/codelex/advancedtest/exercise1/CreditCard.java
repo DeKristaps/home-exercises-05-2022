@@ -9,14 +9,13 @@ public class CreditCard extends Card {
 
     @Override
     public void takeMoney(double money) {
-        int test = this.getBalance().compareTo(BigDecimal.valueOf(money));
+        int test = super.getBalance().compareTo(BigDecimal.valueOf(money));
         if (test < 0) {
             throw new NotEnoughFundsException("Its not possible to take out the amount you are requesting");
         } else {
-            this.setBalance(this.getBalance().subtract(BigDecimal.valueOf(money)));
+            super.takeMoney(money);
         }
-
-        if (this.getBalance().compareTo(BigDecimal.valueOf(100)) < 100) {
+        if (super.getBalance().compareTo(BigDecimal.valueOf(100)) < 100) {
             System.out.println("Warning: Low funds");
         }
 

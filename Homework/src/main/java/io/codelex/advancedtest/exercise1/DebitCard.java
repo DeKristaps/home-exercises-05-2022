@@ -10,8 +10,8 @@ public class DebitCard extends Card {
 
     @Override
     public void addMoney(double money) {
-        this.setBalance(this.getBalance().add(BigDecimal.valueOf(money)));
-        if ((this.getBalance().compareTo(BigDecimal.valueOf(10000)) > 0)) {
+        super.addMoney(money);
+        if ((super.getBalance().compareTo(BigDecimal.valueOf(10000)) > 0)) {
             System.out.println("Warning: Too much money");
         }
     }
