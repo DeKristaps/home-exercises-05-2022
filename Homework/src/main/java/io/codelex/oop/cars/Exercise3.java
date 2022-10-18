@@ -33,6 +33,9 @@ public class Exercise3 {
         beko.addCarToService(xt5);
         beko.addCarToService(xt7);
 
+
+        System.out.println(beko.getCarsByManufactures(cadillac));
+
 //        System.out.println(beko.getCarList());
 //        beko.getCarWithEngineType(EngineType.V6);
 //        beko.getCarsProducedBefore(2021);
