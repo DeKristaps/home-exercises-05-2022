@@ -9,5 +9,8 @@
         <module name="home-exercises-05-2022" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Homework" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
