@@ -28,11 +28,12 @@ public class Exercise1 {
     }
 
     public static int workingHoursBetween(LocalDate date1, LocalDate date2) {
+        final int HOURS_IN_WORKING_DAY = 8;
 
         Predicate<LocalDate> isWeekend = date -> date.getDayOfWeek() == DayOfWeek.SATURDAY || date.getDayOfWeek() == DayOfWeek.SUNDAY;
 
         List<LocalDate> workingDays = date1.datesUntil(date2.plusDays(1)).filter(isWeekend.negate()).toList();
 
-        return workingDays.size() * 8;
+        return workingDays.size() * HOURS_IN_WORKING_DAY;
     }
 }

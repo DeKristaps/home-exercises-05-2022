@@ -75,7 +75,12 @@ public class Car {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Car car = (Car) o;
-        return yearOfManufacture == car.yearOfManufacture && name.equals(car.name) && model.equals(car.model) && price.equals(car.price) && manufacturers.equals(manufacturers) && engineType == car.engineType;
+        return yearOfManufacture == car.yearOfManufacture &&
+                name.equals(car.name) &&
+                model.equals(car.model) &&
+                price.equals(car.price) &&
+                manufacturers.equals(manufacturers)
+                && engineType == car.engineType;
     }
 
     @Override

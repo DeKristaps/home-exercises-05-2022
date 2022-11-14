@@ -4,7 +4,7 @@ public class Hexagon extends Shape{
 
     int width;
     int height;
-    private final int NUM_OF_SIDES = 6;
+    private static final int NUM_OF_SIDES = 6;
 
     public Hexagon(int width, int height) {
         this.width = width;

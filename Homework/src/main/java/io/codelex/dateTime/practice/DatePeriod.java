@@ -3,8 +3,8 @@ package io.codelex.dateTime.practice;
 import java.time.LocalDate;
 
 public class DatePeriod {
-    LocalDate start;
-    LocalDate end;
+    private final LocalDate start;
+    private final LocalDate end;
 
     public DatePeriod(LocalDate start, LocalDate end) {
         this.start = start;
